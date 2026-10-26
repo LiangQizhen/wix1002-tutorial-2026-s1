@@ -1,59 +1,78 @@
-Q1.
-(a)
-public class Test{
-            public static void main (String[]args){
-if(3*8==27){
-System.out.println(“3*8 =27”);
-  }else{
- System.out.println(“3*8!=27”);
-                                                                     }
-                       }
-}
-(b)
-import java.util.Scanner;
+# Tutorial 03 – Answers
 
-public class Test{
-     public static void main(String[]args){
-            Scanner sc=new Scanner(System.in);
-            System.out.println(“Enter an integer please:”);
-            int num=sc.nextInt();
-            if(num%2==0){
-               System.out.println(“Even number”);
-           }else{
-               System.out.println(“Odd number”);
-           }
-     }
-}
-(c)
-import java.util.Scanner;
+## Question 1
 
-public class Test{
-     public static void main(String[]args){
-            Scanner sc=new Scanner(System.in);
-            System.out.print(“Enter a character please:”);
-            char ch=sc.next().charAt(0);
-            if(ch>=‘A’&&ch<=‘Z’){
-                System.out.println(“It is a capital letter”);
-            }else{
-                 System.out.println(“Not a capital letter”);
-}
-      }
-}
+### (a)
 
-
-(d)
+```java
 public class Test{
-     public static void main(String[]args){
-          String s1=“Apple”;
-          String s2=“banana”;
-          if(s1.compareToIgnoreCase(s2)<0){
-              System.out.println(s1+“,”+s2);
-          }else{
-              System.out.println(s2+“,”+s1);
-          }
+    public static void main (String[]args){
+        if(3*8==27){
+            System.out.println("3*8 =27");
+        }else{
+            System.out.println("3*8!=27");
+        }
     }
 }
-(e)
+```
+
+### (b)
+
+```java
+import java.util.Scanner;
+
+public class Test{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter an integer please:");
+        int num=sc.nextInt();
+        if(num%2==0){
+            System.out.println("Even number");
+        }else{
+            System.out.println("Odd number");
+        }
+    }
+}
+```
+
+### (c)
+
+```java
+import java.util.Scanner;
+
+public class Test{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a character please:");
+        char ch=sc.next().charAt(0);
+        if(ch>='A'&&ch<='Z'){
+            System.out.println("It is a capital letter");
+        }else{
+            System.out.println("Not a capital letter");
+        }
+    }
+}
+```
+
+### (d)
+
+```java
+public class Test{
+    public static void main(String[]args){
+        String s1="Apple";
+        String s2="banana";
+        if(s1.compareToIgnoreCase(s2)<0){
+            System.out.println(s1+","+s2);
+        }else{
+            System.out.println(s2+","+s1);
+        }
+    }
+}
+```
+
+### (e)
+
+```java
 import java.util.Scanner;
 
 public class Test {
@@ -61,72 +80,111 @@ public class Test {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number 0-6：");
         int day = sc.nextInt();
-switch (day) {
-             case 0:
+        switch (day) {
+            case 0:
                 System.out.println("Sunday");
                 break;
-             case 1:
+            case 1:
                 System.out.println("Monday");
                 break;
-             case 2:
+            case 2:
                 System.out.println("Tuesday");
                 break;
-             case 3:
+            case 3:
                 System.out.println("Wednesday");
                 break;
-             case 4:
+            case 4:
                 System.out.println("Thursday");
                 break;
-             case 5:
+            case 5:
                 System.out.println("Friday");
                 break;
-             case 6:
+            case 6:
                 System.out.println("Saturday");
                 break;
         }
     }
 }
-Q2
-(a)if (num1==num2)
-(b)if(x>y&&y>z)
-(c)if(s1.equals(s2))
-   else
-(d)if(x>0||y>0)
+```
 
+## Question 2
 
+### (a)
 
+```java
+if (num1==num2)
+```
 
+### (b)
 
-Q3
-(a)
+```java
+if(x>y&&y>z)
+```
+
+### (c)
+
+```java
+if(s1.equals(s2))
+else
+```
+
+### (d)
+
+```java
+if(x>0||y>0)
+```
+
+## Question 3
+
+### (a)
+
+```text
 #####
 $$$$$
-(b)
+```
+
+### (b)
+
+```text
 #####
 $$$$$
-(c)
+```
+
+### (c)
+
+```text
 #####
-(d)
+```
+
+### (d)
+
+```text
 No output
+```
 
-Q4
+## Question 4
+
+```java
 public class Test {
     public static void main(String[] args) {
         int a = 5, b = 9, c = 3;
-        int max = a; 
+        int max = a;
 
         if (b > max) {
-            max = b; // 
+            max = b; //
         }
         if (c > max) {
-            max = c; // 
+            max = c; //
         }
 
         System.out.println("The biggest number is " + max);
     }
 }
+```
 
-Q5
+## Question 5
+
+```java
 public class Test {
     public static void main(String[] args) {
         int year = 2026;
@@ -138,4 +196,4 @@ public class Test {
         }
     }
 }
-
+```
