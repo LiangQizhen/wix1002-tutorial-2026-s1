@@ -1,5 +1,5 @@
 Q1.
-a.
+(a)
 public class Test{
             public static void main (String[]args){
 if(3*8==27){
@@ -9,7 +9,7 @@ System.out.println(“3*8 =27”);
                                                                      }
                        }
 }
-b.
+(b)
 import java.util.Scanner;
 
 public class Test{
@@ -24,7 +24,7 @@ public class Test{
            }
      }
 }
-c.
+(c)
 import java.util.Scanner;
 
 public class Test{
@@ -41,7 +41,7 @@ public class Test{
 }
 
 
-d.
+(d)
 public class Test{
      public static void main(String[]args){
           String s1=“Apple”;
@@ -53,7 +53,7 @@ public class Test{
           }
     }
 }
-e.
+(e)
 import java.util.Scanner;
 
 public class Test {
@@ -87,23 +87,27 @@ switch (day) {
     }
 }
 Q2
-a.if (num1==num2)
-b.if(x>y&&y>z)
-c.if(s1.equals(s2))
+(a)if (num1==num2)
+(b)if(x>y&&y>z)
+(c)if(s1.equals(s2))
    else
-d.if(x>0||y>0)
+(d)if(x>0||y>0)
 
 
 
 
 
 Q3
-a.#####
+(a)
+#####
 $$$$$
-b.#####
+(b)
+#####
 $$$$$
-c.#####
-d.No output
+(c)
+#####
+(d)
+No output
 
 Q4
 public class Test {
